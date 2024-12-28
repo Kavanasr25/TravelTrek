@@ -1,0 +1,106 @@
+/* Reset and global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Body styling with background image */
+  body {
+    background: url('../img/bg.jpg') no-repeat center center fixed; /* Adjusted path to account for 'css' folder */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Container with glass effect */
+  .form-container {
+    backdrop-filter: blur(7px); /* Adds blur for glass effect */
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border for definition */
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Logo and subtitle styling */
+  .logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #abfb00;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  /* Form field styling */
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s;
+    border-radius: 15px;
+  }
+  
+  .form-group input:focus {
+    border-color: #86B817;
+  }
+  
+  /* Primary button styling */
+  .primary-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #86B817;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .primary-button:hover {
+    background-color: #709d13;
+  }
+  
+  /* Additional link styling */
+  .extra-links {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .extra-links a {
+    color: #86B817;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .extra-links a:hover {
+    color: #709d13;
+  }
+  
