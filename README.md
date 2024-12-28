@@ -18,9 +18,9 @@ TravelTrek is a front-end website created using **HTML**, **CSS**, and **JavaScr
 ---
 ## TechStack
 
--> HTML
--> BootStrap CSS
--> Javascript
+- -> HTML
+- -> BootStrap CSS
+- -> Javascript
 
 ---
 
