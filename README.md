@@ -16,7 +16,15 @@ TravelGuidePro is a front-end website created using **HTML**, **CSS**, and **Jav
 
 
 ---
-##TechStack
+## TechStack
+
+-> HTML
+-> BootStrap CSS
+-> Javascript
+
+---
+
+
 ## Features
 
 - **Destination Guides**: Learn about top travel destinations, including popular attractions, cultural experiences, and recommendations for activities.
@@ -53,5 +61,17 @@ Since this project is entirely front-end, you can run it directly from your loca
 
 1. **Clone the repository** (or download the zip file):
    ```bash
-   git clone https://github.com/yourusername/winners.git
+   git clone https://github.com/kavanasr/TravelTrek.git
+   ```
+2. **Change the directory**:
+   ```bash
+   cd TravelTrek
+   ```
+3. **Open Index.html file**:
+   -> in Linux
+   ```bash
+   open index.html
+   ```
+---
+
   
