@@ -12,7 +12,7 @@ This README provides an overview of the project, how to set up the website local
 
 TravelGuidePro is a front-end website created using **HTML**, **CSS**, and **JavaScript**. It provides users with a platform to explore travel destinations, check accommodation options, and plan activities. The website does not rely on back-end technologies and is entirely static, with all data presented directly on the page.
 
----
+
 
 
 ---
