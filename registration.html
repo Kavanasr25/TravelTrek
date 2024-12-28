@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/registration.css">
+</head>
+
+<body>
+    <form class="my-form">
+        <div class="login-welcome-row">
+          
+            <h1>Register</h1>
+            <p>Please enter your details!</p>
+        </div>
+        <div class="input__wrapper">
+            <input type="email" id="email" name="email" class="input__field" placeholder="Your Email" required autocomplete="off">
+            <label for="email" class="input__label">Email:</label>
+            <svg class="input__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                <path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28"></path>
+            </svg>
+        </div>
+        <div class="input__wrapper">
+            <input type="password" id="password" name="password" class="input__field" placeholder="Your Email" required autocomplete="off">
+            <label for="password" class="input__label">Password:</label>
+            <svg class="input__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                <path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28"></path>
+            </svg>
+        </div>
+        <button  class="my-form__button">
+           <a href="./index.html">Register</a>
+        </button>
+        
+        <div class="my-form__actions">
+            <div class="my-form__row">
+                <span>Have account?</span>
+                <a href="./login.html" title="Create Account">
+                    Sign In
+                </a>
+            </div>
+        </div>
+    </form>
+
+    <script src="../TravelTrek/js/registration.js"></script>
+</body>
+
+    </html>

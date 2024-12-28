@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Itinerary Builder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/itinerary.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1><i class="fas fa-plane-departure"></i> Travel Itinerary Builder</h1>
+            <p class="subtitle">Plan your perfect journey</p>
+        </header>
+        
+        <main class="main-content">
+            <div class="add-item-card">
+                <h2>Add New Item</h2>
+                <div class="add-item-form">
+                    <div class="form-group">
+                        <label for="itemType">Type</label>
+                        <div class="select-wrapper">
+                            <select id="itemType">
+                                <option value="flight">✈️ Flight</option>
+                                <option value="hotel">🏨 Hotel</option>
+                                <option value="activity">🎯 Activity</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="itemDescription">Description</label>
+                        <input type="text" id="itemDescription" placeholder="e.g., Flight to Paris">
+                    </div>
+                    <div class="form-group">
+                        <label for="itemDateTime">Date & Time</label>
+                        <input type="datetime-local" id="itemDateTime">
+                    </div>
+                    <button class="add-btn" onclick="addItem()">
+                        <i class="fas fa-plus"></i> Add to Itinerary
+                    </button>
+                </div>
+            </div>
+
+            <div class="itinerary-section">
+                <h2>Your Itinerary</h2>
+                <div class="itinerary-list" id="itineraryList">
+                    <!-- Items will be added here dynamically -->
+                </div>
+            </div>
+        </main>
+    </div>
+    <a href="./index.html" class="hm-btn"> Back to Home</a>
+    <script src="./js/iternary.js"></script>
+</body>
+</html>
